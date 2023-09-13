@@ -1,0 +1,30 @@
+export const images = {
+  // Background
+  Background_Auth: 'Background_Auth.png',
+  Background_Rule: 'Background_Rule.png',
+  Background_Home: 'Background_Home.png',
+  Background_Reward: 'Background_Reward.png',
+  Background_Game: 'Background_Game.png',
+  // Asset
+  pepsi_unicorn: 'pepsi_unicorn.png',
+  // Popup
+  popup_run_out_of: 'popup_run_out_of.png',
+  popup_turn_to_play: 'popup_turn_to_play.png',
+  popup_logout: 'popup_logout.png',
+  // Button
+  Button_Disable: 'Button_Disable.png',
+  Button_Red: 'Button_Red.png',
+  Button_White: 'Button_White.png',
+  Button_Turn_to_play: 'Button_Turn_to_play.png',
+  Button_Home: 'Button_Home.png',
+  // Banner
+  Banner_Login: 'Banner_Login.png',
+  pepsi_an: 'pepsi_an.png',
+  mirinda_phuc: 'mirinda_phuc.png',
+  sevenup_loc: 'sevenup_loc.png',
+  // Icon
+  ic_back: 'ic_back.png',
+  ic_close: 'ic_close.png',
+  ic_logout: 'ic_logout.png',
+  ic_run_out_of: 'ic_run_out_of.png',
+};

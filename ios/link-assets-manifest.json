@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/index.ts",
+      "sha1": "1ae0c2071af4f412242a7e4202ea6ca5eee3a187"
+    },
+    {
+      "path": "src/assets/fonts/UTM Swiss 721 Black Condensed.ttf",
+      "sha1": "4f773abb77406bf0b2d74d2623687eb355ac847c"
+    },
+    {
+      "path": "src/assets/fonts/UTM Swiss Condensed.ttf",
+      "sha1": "b318114be841b24cafdbb7255e7edea146ad7007"
+    },
+    {
+      "path": "src/assets/fonts/UTM Swiss CondensedBold.ttf",
+      "sha1": "4ae34c816dee16818335af9cfa43fc14f90e61f2"
+    }
+  ]
+}

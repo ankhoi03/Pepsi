@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Pepsi-PepsiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Pepsi-PepsiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		04842AB14F894A4A984891BA /* UTM Swiss 721 Black Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D21BD285923E4864B33F8A3A /* UTM Swiss 721 Black Condensed.ttf */; };
+		BCDEBA44A6E343EB94973518 /* UTM Swiss Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF063C99AB6149D887EB245F /* UTM Swiss Condensed.ttf */; };
+		DBD4D9DB0B184A2BB3F8FDFB /* UTM Swiss CondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA03538F5BCC43FDB88632E0 /* UTM Swiss CondensedBold.ttf */; };
+		C6ACFE746DFB4EA082F620C7 /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = 332EFA051913481F9FCEB24E /* index.ts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pepsi/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Pepsi-PepsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pepsi-PepsiTests.release.xcconfig"; path = "Target Support Files/Pods-Pepsi-PepsiTests/Pods-Pepsi-PepsiTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D21BD285923E4864B33F8A3A /* UTM Swiss 721 Black Condensed.ttf */ = {isa = PBXFileReference; name = "UTM Swiss 721 Black Condensed.ttf"; path = "../src/assets/fonts/UTM Swiss 721 Black Condensed.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF063C99AB6149D887EB245F /* UTM Swiss Condensed.ttf */ = {isa = PBXFileReference; name = "UTM Swiss Condensed.ttf"; path = "../src/assets/fonts/UTM Swiss Condensed.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA03538F5BCC43FDB88632E0 /* UTM Swiss CondensedBold.ttf */ = {isa = PBXFileReference; name = "UTM Swiss CondensedBold.ttf"; path = "../src/assets/fonts/UTM Swiss CondensedBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		332EFA051913481F9FCEB24E /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../src/assets/fonts/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				AA6BCA560E6C41E5B0F4281B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		AA6BCA560E6C41E5B0F4281B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D21BD285923E4864B33F8A3A /* UTM Swiss 721 Black Condensed.ttf */,
+				DF063C99AB6149D887EB245F /* UTM Swiss Condensed.ttf */,
+				AA03538F5BCC43FDB88632E0 /* UTM Swiss CondensedBold.ttf */,
+				332EFA051913481F9FCEB24E /* index.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				04842AB14F894A4A984891BA /* UTM Swiss 721 Black Condensed.ttf in Resources */,
+				BCDEBA44A6E343EB94973518 /* UTM Swiss Condensed.ttf in Resources */,
+				DBD4D9DB0B184A2BB3F8FDFB /* UTM Swiss CondensedBold.ttf in Resources */,
+				C6ACFE746DFB4EA082F620C7 /* index.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
