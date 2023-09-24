@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   background: {
     paddingHorizontal: 20,
     alignItems: 'center',
-    paddingTop: 120,
+    paddingTop: '30%',
   },
   brand: {
     fontSize: 30,

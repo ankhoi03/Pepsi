@@ -1,11 +1,17 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {
+  GameScreen,
   HomeScreen,
   LoginScreen,
+  RewardScreen,
   RegisterScreen,
   RuleScreen,
   VerifyScreen,
+  GuideScreen,
+  ScanScreen,
+  CollectionScreen,
+  GiftScreen,
 } from '@screens';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {useAppSelector, selectIsLoggedIn} from '@data';
@@ -19,6 +25,12 @@ export type RootAuthParamLists = {
 
 export type RootMainParamLists = {
   Home: undefined;
+  Game: {type: boolean};
+  Reward: undefined;
+  Guide: undefined;
+  Scan: undefined;
+  Collection: undefined;
+  Gift: undefined;
 };
 
 const Auth = createNativeStackNavigator<RootAuthParamLists>();
@@ -43,6 +55,12 @@ const MainNavigation: React.FC = () => {
       screenOptions={{headerShown: false}}
       initialRouteName="Home">
       <Main.Screen name="Home" component={HomeScreen} />
+      <Main.Screen name="Game" component={GameScreen} />
+      <Main.Screen name="Reward" component={RewardScreen} />
+      <Main.Screen name="Guide" component={GuideScreen} />
+      <Main.Screen name="Scan" component={ScanScreen} />
+      <Main.Screen name="Collection" component={CollectionScreen} />
+      <Main.Screen name="Gift" component={GiftScreen} />
     </Main.Navigator>
   );
 };

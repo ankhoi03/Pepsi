@@ -176,5 +176,6 @@ const styles = StyleSheet.create({
   btnConfirm: {
     width: '50%',
     marginTop: 10,
+    borderColor: colors.yellow_outline,
   },
 });

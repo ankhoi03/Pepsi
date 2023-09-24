@@ -4,9 +4,10 @@ import {
   ViewStyle,
   ImageBackground,
   StatusBar,
+  KeyboardAvoidingView,
+  Platform,
 } from 'react-native';
 import React from 'react';
-import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {size} from '@utils';
 
 type BackgroundProps = {
@@ -17,9 +18,9 @@ type BackgroundProps = {
 
 const _Background: React.FC<BackgroundProps> = props => {
   return (
-    <KeyboardAwareScrollView
-      extraScrollHeight={-420}
-      enableOnAndroid
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : 'position'}
+      keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : -size.height * 0.2}
       style={styles.container}>
       <StatusBar
         translucent
@@ -31,7 +32,7 @@ const _Background: React.FC<BackgroundProps> = props => {
         style={StyleSheet.flatten([styles.background, props.style])}>
         {props.children}
       </ImageBackground>
-    </KeyboardAwareScrollView>
+    </KeyboardAvoidingView>
   );
 };
 

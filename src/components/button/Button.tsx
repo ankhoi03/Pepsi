@@ -12,7 +12,7 @@ import {fonts} from '@assets';
 import {colors, size} from '@utils';
 
 interface ButtonProps {
-  content: string;
+  content?: string;
   background: string | undefined;
   buttonStyle?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>;
@@ -28,7 +28,7 @@ const _Button: React.FC<ButtonProps> = props => {
       disabled={props.disable}>
       <Image source={{uri: props.background}} style={styles.background} />
       <Text style={StyleSheet.flatten([styles.contentStyle, props.textStyle])}>
-        {props.content}
+        {props?.content}
       </Text>
     </TouchableOpacity>
   );

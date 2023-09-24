@@ -1,4 +1,4 @@
-import {View, StyleSheet} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import React, {useEffect} from 'react';
 import {Provider} from 'react-redux';
 import {
